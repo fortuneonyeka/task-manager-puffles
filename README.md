@@ -16,7 +16,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://scheduler-with-redux.vercel.app/) 
+[Live Demo Link](https://task-manager-puffles.vercel.app/) 
 
 ## Getting Started
 
