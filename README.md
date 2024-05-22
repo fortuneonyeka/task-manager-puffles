@@ -1,31 +1,59 @@
-# React + TypeScript + Vite
+# Task Management application.
+"This is a simple event management application where you can add task, mark task as completed and also delete the task.
+"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+![Screenshot](src/assets//Tak-Manager.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Built With
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- JSX, Tailwind css,JavaScript, React,Redux, Redux Toolkit, React Hooks,localstorage
+- Visual Studio, Git, & GitHub;
+
+
+## Live Demo (if available)
+
+[Live Demo Link](https://scheduler-with-redux.vercel.app/) 
+
+## Getting Started
+
+To run this project, you only need a computer with a browser (like Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, etc.) installed, and follow these steps:
+
+1. In your terminal, in the folder of your preference, type the following bash command to clone this repository:
+
+```sh
+git@github.com:fortuneonyeka/task-manager-puffles.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# task-manager-puffles
+2. Now that you have already cloned the repo run the following commands to get the project up and running:
+```sh
+cd task-manager-puffles
+npm install
+npm run dev
+```
+
+3.  You can start adding, completing and deleting tasks.
+
+4.  All the changes will be automatically updated on your local server on http://localhost:5173/. You can stop your local server at any time hitting `<Ctrl> + C` on your keyboard.
+
+
+
+
+## Author
+
+👤 **Ihedoro Fortunatus O**
+
+- GitHub: [@fortuneonyeka](https://github.com/fortuneonyeka)
+- Twitter: [@onyekafortune](https://twitter.com/onyekafortune)
+- LinkedIn: [Ihedoro Fortunatus](https://www.linkedin.com/in/fortunatus-ihedoro/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
